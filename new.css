@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.paragraph{
+    position: absolute;
+    font: bold;
+    font-size: 50px;
+    color: rgb(31, 129, 215);
+    top:200px;
+    left: 500px;
+    transition: ease-in-out 10ms;
+}
+.Home{
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    border-radius: 10px 20px ;
+    width: 200px;
+    height: 50px;
+    border: 1.5px solid black;
+    background-image: linear-gradient(360deg,blue,rgb(12, 12, 114) 50%,rgb(0, 26, 255));
+    text-decoration: none;
+    position:absolute;
+    top: 600px;
+    left: 700px;
+    align-content: center;
+}
+.Home:hover{
+    transform: scale(1.1);
+}
