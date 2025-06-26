@@ -1,0 +1,339 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav-background{
+    background-color: rgb(243, 240, 240) !important;
+} 
+.nav-link:hover{
+    background-color:rgb(99, 145, 178);
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(36, 144, 221),
+    0px 0px 10px rgb(58, 147, 210) ,
+    0px 0px 15px rgb(99, 145, 178),
+    0px 0px 20px rgb(52, 98, 130);
+    -webkit-box-reflect: below 0.5px
+    linear-gradient(transparent,#0005);
+     transform: scale(1.1);
+    font-style: oblique; 
+    
+ }
+#video{
+    width: 100%;
+    height: 100%;
+}
+.d-flex{
+    position: absolute;
+    top:20px;
+
+  left: 600px;
+    width: 20%;
+    height: 5%;
+    text-indent: 20px;
+   
+    
+}
+
+#logos{
+    background-color:  rgb(243, 240, 240);
+    width: 100%;
+    height: 70px;
+}
+
+.texts{
+    color: rgb(52, 212, 212);
+    font-size: 20px;
+    position: absolute;
+    top:10px;
+    font-weight: 900;
+    font-style: italic;
+    
+
+}
+#techno{
+    color: rgb(22, 204, 204);
+    font-size: 20px;
+    position: absolute;
+    text-indent: 20px;
+    top:30px;
+    font-weight: 900;
+    font-style: italic;
+
+}
+.logo{
+    width: 150px;
+    height: 70px;
+}
+
+#head{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 200px;
+    margin-left: 100px;
+}
+#drop{
+    position: absolute;
+    top: 18px;
+    margin-left: 1250px;
+    border: radius 10px 20px;
+    background: transparent;
+}
+#textss{
+    color: white;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+
+.container-fluid{
+    border: 1.5em ;
+    border-radius: 100px 0px 120px 0px;
+    
+    backdrop-filter: blur(20px);
+    width: 100%;
+    height: 90px;
+    background-image: linear-gradient(to left top, rgb(200, 191, 191),rgb(99, 145, 178));
+ position: -webkit-sticky;   
+}
+.nav-item{
+    padding: 10px 30px 50px 70px;
+   margin-left: 20px;
+    list-style-type: none;
+    justify-content: space-between;
+   
+    
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    backdrop-filter: blur(20px);
+    color: rgb(252, 244, 244) !important;
+    display:flex;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+#booking{
+    margin-top: 20px;
+    border: 1.50px solid rgb(245, 248, 248);
+    background-color: rgb(73, 193, 212);
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+}
+#list{
+    margin-top: 20px;
+}
+.maps{
+    position: absolute;
+    left: 100px;
+    top: 500px;
+    border-radius: 20px;
+    width: 400px;
+}
+.Close{
+    position: absolute;
+    top: 500px;
+    left: 600px;
+    border: 1.5px solid black;
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    backdrop-filter: blur(25px);
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 40px;
+    gap: 20px;
+    /* position: absolute;
+    margin-left: 700px; */
+   
+}
+.Name{
+    width: 200px;
+    height: 50px;
+    border-radius:10px;
+    text-indent: 10px;
+    margin-left: 20px;
+
+}
+.Email{
+    width: 200px;
+    height: 50px;
+    border-radius:10px;
+    text-indent: 10px;
+    margin-left: 20px;
+
+}
+#Phone{
+    width: 200px;
+    height: 50px;
+    border-radius:10px;
+    text-indent: 10px;
+    margin-left: 20px;
+
+}
+#input{
+    width: 200px;
+    height: 50px;
+    border-radius:10px;
+    text-indent: 10px;
+    margin-left: 20px;
+
+}
+#text{
+    width: 400px;
+    height: 200px;
+    text-indent: 30px;
+    border-radius: 20px ;
+}
+.gmail{
+    width: 20px;
+    height: 20px;
+  
+    position: absolute;
+    top:185px;
+    left: 320px;
+
+}
+.Phone{
+    width: 20px;
+    height: 20px;
+  
+    position: absolute;
+    top: 255px;
+    left: 320px;
+}
+.bxs-user{
+    width: 20px;
+    height: 20px;
+  
+    position: absolute;
+    top: 120px;
+    left: 320px;
+}
+#Contact{
+  
+    display: flex;
+    margin-left: 20px;
+   
+}
+#Number{
+    cursor:default;
+    text-decoration: none;
+    margin-top: 20px;
+}
+#Submit{
+    cursor: default;
+    border: 1.5px solid ;
+   
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    font-weight: 900;
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 200px !important;
+    height: 50px !important;
+    background: linear-gradient(360deg, #00177e, #0040ff 41.6%, #00268f);
+    border-radius: 20px;
+    
+}
+#Submit:hover{
+    box-shadow: 0px 0px 20px rgb(0, 11, 128);              
+}
+#Cancel{
+    cursor: default;
+    border: 1.5px solid red;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(207, 32, 32);
+    font-weight: 900;
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 150px !important;
+    height: 50px !important;
+    
+    border-radius: 20px; 
+}
+#Cancel:hover{
+    color: white;
+    background-color:  rgb(207, 32, 32);
+}
+.images{
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    left:1300px;
+    top:500px;
+    gap: 10px;
+}
+#image{
+    width:200px;
+    height: 150px;
+    border-radius: 10px 50px;
+
+}
+#contactus{
+    border: 1.5px solid rgb(255, 234, 216);
+   
+    width: 200px;
+    height: 60px;
+    background-color: rgb(255, 234, 216);
+    display: flex;
+    gap: 10px;
+    border-radius: 10px 20px;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(18, 21, 21);
+    }
+    #contactus{
+        border: 1.5px solid rgb(255, 234, 216);
+       
+        width: 200px;
+        height: 60px;
+        background-color: rgb(131, 131, 131);
+        display: flex;
+        gap: 10px;
+        border-radius: 10px 20px;
+        font-size: 15px;
+        font-weight: 900;
+        font-style: italic;
+        color: rgb(18, 21, 21);
+        }
+        
+.bx-phone{
+    height: 30px;
+    width: 30px;
+    
+}
+.top{
+    display: flex;
+    position: absolute;
+    top:388px;
+    left: 20px;
+    gap: 380px;
+   
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+}
+#logoss
+{
+    text-align: justify;
+    text-decoration:none;
+    margin-left: 20px;
+    color: grey;
+    
+}
+#Aboutus{
+    color: grey;
+    text-decoration:none !important;
+    margin-left: 10px;
+}
